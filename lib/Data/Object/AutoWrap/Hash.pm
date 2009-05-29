@@ -10,11 +10,11 @@ Data::Object::AutoWrap::Hash - Autogenerate accessors for R/O object data
 
 =head1 VERSION
 
-This document describes Data::Object::AutoWrap::Hash version 0.01
+This document describes Data::Object::AutoWrap::Hash version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -29,8 +29,8 @@ our $VERSION = '0.01';
 =cut
 
 sub new {
-    my ( $class, $data ) = @_;
-    bless { data => $data }, $class;
+  my ( $class, $data ) = @_;
+  bless { data => $data }, $class;
 }
 
 1;
